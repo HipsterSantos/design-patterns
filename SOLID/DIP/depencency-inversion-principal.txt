@@ -1,0 +1,1 @@
+depends on abstractions, not concretions.the five solid priciple are discussed individuallly in the sectin that follow. 
