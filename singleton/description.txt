@@ -1,0 +1,12 @@
+A particular class should have only one isntance. We will use only that instance whenever we are in need 
+
+===Real life example ===== 
+
+Suppose you are a memever of  cricket team. And in a tourname you team is  going t play gagians another team. As per the rles of the game, the captain of reach side must got 
+for a toss to desicde which side will bat (or bowl) first.So , if your team does not have a captain, you need to elect someone as a captain frist. And at the same time, your team cannot have more 
+than one captain.
+
+
+===== Computer approach ====== 
+In a softweae system sometimes we may desice to use only one file system. Usuallly we may use it for centralized management of resources . 
+
