@@ -31,7 +31,7 @@ namespace AsyncBreakfast{
             Console.WriteLine('oj is ready'); 
             Console.WritLine("Breakfast is ready");
 
-            private stattic Juic PourOj(){
+            private stattic Juice PourOj(){
                 Console.WriteLine("Pouring orange jice"); 
                 return new Juice();
             }
@@ -64,7 +64,25 @@ namespace AsyncBreakfast{
                 Console.WriteLine("Put bacon on plate"); 
                 return new Bacon():
             }
+
+            private static Egg FryEggs (int howMany){
+                Console.WriteLine("warming the egg pan...");
+                Task.Delay(3000).Wait();
+                Console.WriteLine($"cracking {howMany} eggs");
+                Console.WriteLine("cooking the eggs ..."); 
+                Console.WriteLine("Put eggs on plate ")
+                return new Egg();
+            }
+
+            private static Coffe PourCoffee(){
+                Console.WriteLine("Pouring coffee"); 
+                return new  Coffee();
+            }
             
         }
     }
 }
+
+//the above example was one about synchronous programming , that took about 30 minute because the execution time of all tasks are the sum of all task  
+// that lead us to take 30 minute of execution . this happens because they aren't asynchronous Tasks. 
+//Now let's see an asynchrounous implementation . 
