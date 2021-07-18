@@ -10,3 +10,4 @@ Computer world example
 Conside an ATM implementation for a bank. Here we will find multiple proxy object.Actaul Bank informatinowill be store in remote server. We must remember that in the real programming world, the crateion of multiple instance of a comople
 object (heavy-object ) is very costly . in such sitatuons, we can create multiple proxy objects (which must point to an original object ) and the total crateion of actual
 objects (which must point to an original object ) and the creation of actual object can be carried out on demands basis. Thus we can save both thememory and creational time. 
+1
